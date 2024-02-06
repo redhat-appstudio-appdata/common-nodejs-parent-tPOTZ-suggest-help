@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-express-hello-skq1
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/common-nodejs-parent/node-express-hello-skq1@sha256:2d09f0acc39e7b9896cf2f60511214069629bd13705f45696afdc8982eb54213
+        name: container-image
+        resources: {}
+status: {}
