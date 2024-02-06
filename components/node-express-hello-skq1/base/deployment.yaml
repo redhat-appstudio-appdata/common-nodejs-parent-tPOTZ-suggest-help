@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: node-express-hello-skq1
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/common-nodejs-parent/node-express-hello-skq1@sha256:2d09f0acc39e7b9896cf2f60511214069629bd13705f45696afdc8982eb54213
         imagePullPolicy: Always
         name: container-image
         ports:
