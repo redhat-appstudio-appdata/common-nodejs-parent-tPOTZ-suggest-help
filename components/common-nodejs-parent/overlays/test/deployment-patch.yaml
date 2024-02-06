@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/common-nodejs-parent/common-nodejs-parent@sha256:48bf368df3ce03ba5d31a85b7bd060e988eee79faabb0a2f22b522e3ad020b6a
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/common-nodejs-parent/common-nodejs-parent@sha256:727bc70eb1626c95721c4b86369d0e64f6d1c17bbbb07126075cdbe302d27b63
         name: container-image
         resources: {}
 status: {}
