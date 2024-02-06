@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: testsample-go-lunn
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/common-nodejs-parent/testsample-go-lunn@sha256:387beccc279769b603af69497160057bbcf24a98b1cf0739eab7ccb6b3ffb0c0
+        name: my-go
+        resources: {}
+status: {}
