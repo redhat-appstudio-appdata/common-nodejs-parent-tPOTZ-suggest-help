@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: common-nodejs-parent
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/common-nodejs-parent/common-nodejs-parent@sha256:48bf368df3ce03ba5d31a85b7bd060e988eee79faabb0a2f22b522e3ad020b6a
+        name: container-image
+        resources: {}
+status: {}
