@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: testsample-go-lunn
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/common-nodejs-parent/testsample-go-lunn@sha256:387beccc279769b603af69497160057bbcf24a98b1cf0739eab7ccb6b3ffb0c0
         name: my-go
         ports:
         - containerPort: 8081
