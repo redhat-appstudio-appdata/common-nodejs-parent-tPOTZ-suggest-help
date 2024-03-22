@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: node-express-hello-skq1
     app.kubernetes.io/part-of: common-nodejs-parent
-  name: node-express-hello-skq1hgqh
+  name: node-express-hello-skq1tejx
 spec:
   port:
     targetPort: 3001

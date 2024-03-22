@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: node-express-hello-skq1
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
