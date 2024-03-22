@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: testsample-go-lunn
     app.kubernetes.io/part-of: common-nodejs-parent
-  name: testsample-go-lunn3utj
+  name: testsample-go-lunnv7cq
 spec:
   port:
     targetPort: 8081
