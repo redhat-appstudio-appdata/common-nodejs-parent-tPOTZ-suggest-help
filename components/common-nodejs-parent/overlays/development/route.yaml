@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: common-nodejs-parent
     app.kubernetes.io/part-of: common-nodejs-parent
-  name: common-nodejs-parentqgkh
+  name: common-nodejs-parenteqkg
 spec:
   port:
     targetPort: 8080
